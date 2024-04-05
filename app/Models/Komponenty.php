@@ -4,9 +4,9 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class Typkomponent extends Model
+class Komponenty extends Model
 {
-    protected $table            = 'mt_typkomponent';
+    protected $table            = 'mt_komponent';
     protected $primaryKey       = 'id';
     protected $useAutoIncrement = true;
     protected $returnType       = 'object';
