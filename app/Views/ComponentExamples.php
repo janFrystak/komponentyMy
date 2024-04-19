@@ -8,7 +8,7 @@ echo $this->section("content"); ?>
     <div class ="row">
 <div class="card">
   <div class="card-body">
-  <h4 class="card-title"><?= anchor("ComponentyTypy/".$komp->id, $komp->nazev) ?></h4>
+  <h4 class="card-title"><?= anchor("ComponentyTypy/".$komp->typKomponent_id, $komp->nazev) ?></h4>
 
     
   

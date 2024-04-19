@@ -32,6 +32,7 @@ class Main extends BaseController
         $data["komponenty"] = $this->kompy->where("typKomponent_id", $typeId)->findAll();
         echo view("ComponentExamples", $data);
     }
+
     public function getKompInfo($id)
     {
         $data["info"]= $this->kompy->where("id", $id)->findAll();
