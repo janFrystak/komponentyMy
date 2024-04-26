@@ -31,7 +31,7 @@ class Database extends Config
         'password'     => '',
         'database'     => 'frystak-database',
         'DBDriver'     => 'MySQLi',
-        'DBPrefix'     => '',
+        'DBPrefix'     => 'mt_',
         'pConnect'     => false,
         'DBDebug'      => true,
         'charset'      => 'utf8',

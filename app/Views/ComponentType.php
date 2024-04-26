@@ -9,6 +9,7 @@ echo $this->section("content"); ?>
 <div class="card">
   <div class="card-body">
   <h4 class="card-title"><?=anchor("ComponentExamples/".$komp->idKomponent, $komp->typKomponent) ?></h4>
+  
 
     
   
