@@ -8,4 +8,5 @@ use CodeIgniter\Router\RouteCollection;
 $routes->get('/', 'Main::getKompType');
 $routes->get("ComponentExamples/(:num)", "Main::getKomp/$1");
 $routes->get("ComponentyTypy/(:num)", "Main::getKompInfo/$1");
+$routes->get("ComponentType", "Main::getKompType");
 

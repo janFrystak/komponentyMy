@@ -1,6 +1,8 @@
 <?php
+
 echo $this->extend("layout/template");
-echo $this->section("content"); ?>
+echo $this->section("content"); 
+;?>
 <h1>Druhy Komponentů</h1>
 <?php foreach ($komponenty as $komp) : ?>
 
@@ -18,6 +20,7 @@ echo $this->section("content"); ?>
 </div>
 </div>
 </div>
-<?php endforeach ;
+<?php endforeach ; ?>
+<div style="width:300px; margin:auto"><?php echo $pager->links(); ?></div>
 
- $this->endSection(); ?>
+<?php $this->endSection(); ?>

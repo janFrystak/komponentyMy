@@ -32,13 +32,15 @@ $kompImg = [
 <div class="card">
   <div class="card-body">
   <h4 class="card-title"><?= /*anchor("ComponentExamples/")*/$info->nazev ?></h4>
-  <p class="card-text"><?php $info->vyrobce; ?></p>
-  
+  <p class="card-text">Výrobce: <?= $info->vyrobce; ?></p>
+  <?php foreach($parametrs as $para): ?>
+    <p class="card-text"><?= $para->nazev;?>: <?= $para->hodnota ?></p>
+   <?php endforeach ;?>
   <p class="card-text"><?php echo img ($kompImg); ?></p>
   
-   <?php echo anchor($url, "Link"); ?>
+   <? echo anchor($url, "Link"); ?>
   
-
+   
   
 
 

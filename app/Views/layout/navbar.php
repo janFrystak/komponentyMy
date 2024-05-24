@@ -21,7 +21,7 @@
             <ul clas = "navbar-nav me-auto">
                 <li class = "nav-item">
                     <?php
-                     //echo anchor("StaniceInfo", "Stanice", $pole);
+                     echo anchor("ComponentType", "Pc komponenty", $pole);
                      ?>
                 </li>
             </ul>
